@@ -14,15 +14,15 @@ Vladimir Vuksanovikj - University of St Cyril and Methodius1 (Faculty of Physica
 >
 Mihailo Sejkeroski - FC Slavija- Sofija (Football Club, Sofia, Bulgaria);
 >
-Nuno André Nunes - Solent University3 (Southampton, England, United Kingdom); 
+Nuno André Nunes - Solent University (Southampton, England, United Kingdom); 
 >
 Elena Soklevska Ilievski - European University (Skopje, Macedonia);
 >
-Aleksandar Aceski - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
+Aleksandar Aceski - University of St Cyril and Methodius (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
 >
-Vlatko Nedelkovski - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
+Vlatko Nedelkovski - University of St Cyril and Methodius (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
 >
-Kostadin Kodzoman - Saba High School5 (PhD Student, Skopje Macedonia);
+Kostadin Kodzoman - Saba High School (PhD Student, Skopje Macedonia);
 
 
 ---
