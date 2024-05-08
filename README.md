@@ -361,7 +361,6 @@ for sma, ewma in pairs:
 
 # Save the results to an Excel file
 ```
-## Dataset
 
 To download the dataset please click [HERE](documention/dataset_bank.csv)
 
