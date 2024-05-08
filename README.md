@@ -11,11 +11,17 @@ To determine the most effective method for analyzing time series data concerning
 
 #### 
 Vladimir Vuksanovikj - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
+>
 Mihailo Sejkeroski - FC Slavija- Sofija2 (Football Club, Sofia, Bulgaria;
+>
 Nuno André Nunes - Solent University3 (Southampton, England, United Kingdom); 
+>
 Elena Soklevska Ilievski - European University4 (Skopje, Macedonia);
+>
 Aleksandar Aceski - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
+>
 Vlatko Nedelkovski - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
+>
 Kostadin Kodzoman - Saba High School5 (PhD Student, Skopje Macedonia);
 
 
