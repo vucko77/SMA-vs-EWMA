@@ -12,11 +12,11 @@ To determine the most effective method for analyzing time series data concerning
 #### 
 Vladimir Vuksanovikj - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
 >
-Mihailo Sejkeroski - FC Slavija- Sofija2 (Football Club, Sofia, Bulgaria;
+Mihailo Sejkeroski - FC Slavija- Sofija (Football Club, Sofia, Bulgaria);
 >
 Nuno André Nunes - Solent University3 (Southampton, England, United Kingdom); 
 >
-Elena Soklevska Ilievski - European University4 (Skopje, Macedonia);
+Elena Soklevska Ilievski - European University (Skopje, Macedonia);
 >
 Aleksandar Aceski - University of St Cyril and Methodius1 (Faculty of Physical Education Sport and Health, Skopje, Macedonia);
 >
@@ -28,7 +28,34 @@ Kostadin Kodzoman - Saba High School5 (PhD Student, Skopje Macedonia);
 ---
 
 ## Project Specification
+#Descriptive
+# Prepare a DataFrame to store the descriptive statistics
+desc_stats = pd.DataFrame(columns=['Metric', 'Min', 'Max', 'Mean', 'SD', 'Skew', 'Kurtosis', 'Shapiro-Wilk', 'Kolmogorov-Smirnov'])
 
+# Calculate descriptive statistics and normality tests
+for metric in metrics:
+    series = data[metric].dropna()
+    desc_stats = desc_stats.append({
+        'Metric': metric,
+        'Min': series.min(),
+        'Max': series.max(),
+        'Mean': series.mean(),
+        'SD': series.std(),
+        'Skew': skew(series),
+        'Kurtosis': kurtosis(series),
+        'Shapiro-Wilk': shapiro(series)[1],
+        'Kolmogorov-Smirnov': kstest(series, 'norm', args=(series.mean(), series.std()))[1]
+    }, ignore_index=True)
+
+# Define a function to apply the color formatting
+def highlight_non_normal(val):
+    color = 'orange' if val < 0.05 else None
+    return f'background-color: {color}'
+
+# Apply the color formatting
+styled_desc_stats = desc_stats.style.applymap(
+    highlight_non_normal, subset=['Shapiro-Wilk', 'Kolmogorov-Smirnov']
+)
 
 ## Dataset
 
