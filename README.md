@@ -28,7 +28,10 @@ Kostadin Kodzoman - Saba High School5 (PhD Student, Skopje Macedonia);
 ---
 
 ## Project Specification
-#Descriptive
+- Descriptive
+  - basic statistics
+
+```
 # Prepare a DataFrame to store the descriptive statistics
 desc_stats = pd.DataFrame(columns=['Metric', 'Min', 'Max', 'Mean', 'SD', 'Skew', 'Kurtosis', 'Shapiro-Wilk', 'Kolmogorov-Smirnov'])
 
@@ -56,6 +59,8 @@ def highlight_non_normal(val):
 styled_desc_stats = desc_stats.style.applymap(
     highlight_non_normal, subset=['Shapiro-Wilk', 'Kolmogorov-Smirnov']
 )
+```
+
 
 ## Dataset
 
